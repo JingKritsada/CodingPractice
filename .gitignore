@@ -1,0 +1,5 @@
+# Ignore Discrete folder
+Discrete/
+
+# Ignore all PDF files
+IntrotoCEDT/*.pdf
