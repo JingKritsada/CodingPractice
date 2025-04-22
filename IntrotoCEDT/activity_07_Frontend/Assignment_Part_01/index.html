@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment_Part_01</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h1 id="app-name">ฝากซื้อด้วย</h1>
+
+    <section>
+        <h2 class="section-title">รายชื่อผู้มีสิทธิฝากซื้อ</h2>
+        <ul id="member-list">
+            <li>Aimeric Supasuth</li>
+            <li>Punyata Testosaporn</li>
+            <li>Natthanicha Jamjuree</li>
+            <li>Kritsada Limsripraphan</li>
+            <li>Karin Sitthibut</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2 class="section-title">รายการฝากซื้อ</h2>
+        <table id="main-table">
+
+            <thead>
+                <tr>
+                    <th>ของที่ฝากซื้อ</th>
+                    <th>ชื่อผู้ฝากซื้อ</th>
+                    <th>ราคา (บาท)</th>
+                    <th>ดำเนินการ</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>โค้กส้ม (ขวด)</td>
+                    <td>Aimeric Supasuth</td>
+                    <td>18</td>
+                    <td><button class="delete-row">ลบ</button></td>
+                </tr>
+                <tr>
+                    <td>ข้าวผัดปู (เวฟด้วย)</td>
+                    <td>Punyata Testosaporn</td>
+                    <td>45</td>
+                    <td><button class="delete-row">ลบ</button></td>
+                </tr>
+                <tr>
+                    <td>ปูอัดแพ็คเล็ก</td>
+                    <td>Natthanicha Jamjuree</td>
+                    <td>40</td>
+                    <td><button class="delete-row">ลบ</button></td>
+                </tr>
+                <tr>
+                    <td>น้ำทิพย์ (เอาขวดไม่ยวบยาบ)</td>
+                    <td>Kritsada Limsripraphan</td>
+                    <td>7</td>
+                    <td><button class="delete-row">ลบ</button></td>
+                </tr>
+                <tr>
+                    <td>C-vitt มะนาว</td>
+                    <td>Karin Sitthibut</td>
+                    <td>15.50</td>
+                    <td><button class="delete-row">ลบ</button></td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td><input type="text" id="item-to-add" placeholder="ของที่ฝากซื้อ"></td>
+                    <td>
+                        <select id="name-to-add" placeholder="-- เลือกผู้ฝากซื้อ --">
+                            <option>Aimeric Supasuth</option>
+                            <option>Punyata Testosaporn</option>
+                            <option>Natthanicha Jamjuree</option>
+                            <option>Kritsada Limsripraphan</loptioni>
+                            <option>Karin Sitthibut</option>
+                        </select>
+                    </td>
+                    <td><input type="number" id="price-to-add" placeholder="ราคา (บาท)"></td>
+                    <td><button id="add-newrow">เพิ่ม</button></td>
+                </tr>
+            </tfoot>
+
+        </table>
+    </section>
+
+</body>
+
+</html>

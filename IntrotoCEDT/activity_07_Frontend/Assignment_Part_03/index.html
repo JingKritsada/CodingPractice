@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Assignment_Part_02</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <h1 id="app-name">ฝากซื้อด้วย</h1>
+
+    <section>
+      <h2 class="section-title">รายชื่อผู้มีสิทธิฝากซื้อ</h2>
+      <ul id="member-list">
+        <li>Karin Sitthibut</li>
+        <li>Aimeric Supasuth</li>
+        <li>Punyata Testosaporn</li>
+        <li>Natthanicha Jamjuree</li>
+        <li>Kritsada Limsripraphan</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 class="section-title">รายการฝากซื้อ</h2>
+      <table id="itemlist-table">
+        <thead>
+          <tr>
+            <th>ของที่ฝากซื้อ</th>
+            <th>ชื่อผู้ฝากซื้อ</th>
+            <th>ราคา (บาท)</th>
+            <th>ดำเนินการ</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Initially empty, will be populated by JavaScript -->
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>
+              <input
+                type="text"
+                id="itemname-input"
+                placeholder="ของที่ฝากซื้อ"
+              />
+            </td>
+            <td>
+              <select id="name-to-add">
+                <option value="" disabled selected>
+                  -- เลือกผู้ฝากซื้อ --
+                </option>
+              </select>
+            </td>
+            <td>
+              <input type="number" id="price-to-add" placeholder="ราคา (บาท)" />
+            </td>
+            <td><button id="addbutton">เพิ่ม</button></td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+
+    <section>
+      <h2 class="section-title">ยอดรวมตามผู้ฝากซื้อ</h2>
+      <table id="summary-table">
+        <thead>
+          <tr>
+            <th>ชื่อผู้ฝากซื้อ</th>
+            <th>ยอดรวม (บาท)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Initially empty, will be populated by JavaScript -->
+        </tbody>
+      </table>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>

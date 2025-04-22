@@ -1,0 +1,156 @@
+/* style.css */
+
+/* General Styles */
+@import url("https://fonts.googleapis.com/css2?family=Mitr:wght@200;400;600&display=swap");
+
+body {
+  font-family: "Mitr", sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+h1,
+h2 {
+  color: #333;
+}
+
+/* Header */
+#app-name {
+  text-align: center;
+  font-size: 36px;
+  color: #4caf50;
+}
+
+/* Sections */
+section {
+  margin-bottom: 30px;
+}
+
+/* Section Titles */
+.section-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+/* Member List */
+#member-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+#member-list li {
+  background-color: #fff;
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Table Styles */
+#itemlist-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+#itemlist-table th,
+#itemlist-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+  background-color: #fff;
+}
+
+#itemlist-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+/* Additional CSS for summary table */
+#summary-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+#summary-table th,
+#summary-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+  background-color: #fff;
+}
+
+#summary-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+/* Input and Button Styles */
+input[type="text"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  /* Ensure buttons take full width of their container */
+  box-sizing: border-box;
+  /* Include padding and border in the element's total width and height */
+}
+
+button:hover {
+  opacity: 0.9;
+  /* Slightly change the opacity on hover */
+}
+
+.deletebutton {
+  background-color: #f44336;
+  color: white;
+}
+
+.deletebutton:hover {
+  background-color: #e53935;
+}
+
+#addbutton {
+  background-color: #4caf50;
+  color: white;
+}
+
+#addbutton:hover {
+  background-color: #45a049;
+}
+
+/* Footer Styles */
+tfoot {
+  background-color: #f9f9f9;
+}
+
+tfoot input[type="text"],
+tfoot input[type="number"],
+tfoot select {
+  width: 95%;
+}
+
+tfoot button {
+  width: 100%;
+  /* Ensure the 'เพิ่ม' button takes full width of its container */
+}
+
+tfoot td {
+  padding-top: 10px;
+}

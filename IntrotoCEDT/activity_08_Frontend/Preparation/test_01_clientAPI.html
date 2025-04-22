@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>test 01 API</title>
+    <script>
+      function speak() {
+        let msg = document.getElementById("webspeechapi-demo-text").value;
+        let utt = new SpeechSynthesisUtterance(msg);
+        utt.lang = "th-TH";
+        window.speechSynthesis.speak(utt);
+      }
+    </script>
+  </head>
+
+  <body>
+    <h1>Web Speech API Demo</h1>
+    <textarea id="webspeechapi-demo-text" rows="10" cols="50"></textarea><br />
+    <button onclick="speak()">Speak</button>
+
+    <script src="test_01_serverAPI.js"></script>
+  </body>
+</html>

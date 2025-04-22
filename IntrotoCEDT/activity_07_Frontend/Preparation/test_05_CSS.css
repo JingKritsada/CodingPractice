@@ -1,0 +1,31 @@
+/* test_05_CSS.css */
+
+.color-1 {
+  background-color: #aec6cf;
+}
+
+.color-2 {
+  background-color: #b2d8b2;
+}
+
+.color-3 {
+  background-color: #ffb6c1;
+}
+
+table {
+  font-family: sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  margin: 20px auto;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}

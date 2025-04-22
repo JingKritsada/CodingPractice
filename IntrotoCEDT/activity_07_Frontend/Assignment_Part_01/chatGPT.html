@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>chatGPT</title>
+    <link rel="stylesheet" href="chatGPT.css" />
+  </head>
+
+  <body>
+    <h1>ฝากซื้อด้วย</h1>
+
+    <h2>รายชื่อผู้มีสิทธิฝากซื้อ</h2>
+    <ul>
+      <li>สมชาย</li>
+      <li>สมหญิง</li>
+      <li>สมศักดิ์</li>
+      <li>สมจิตร</li>
+      <li>สมหมาย</li>
+    </ul>
+
+    <h2>รายการฝากซื้อ</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>ของที่ฝากซื้อ</th>
+          <th>ชื่อผู้ฝากซื้อ</th>
+          <th>ราคา (บาท)</th>
+          <th>ดำเนินการ</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>ขนม</td>
+          <td>สมชาย</td>
+          <td>50</td>
+          <td><button>ลบ</button></td>
+        </tr>
+        <tr>
+          <td>นม</td>
+          <td>สมหญิง</td>
+          <td>30</td>
+          <td><button>ลบ</button></td>
+        </tr>
+        <tr>
+          <td>กาแฟ</td>
+          <td>สมศักดิ์</td>
+          <td>45</td>
+          <td><button>ลบ</button></td>
+        </tr>
+        <tr>
+          <td>ผลไม้</td>
+          <td>สมจิตร</td>
+          <td>60</td>
+          <td><button>ลบ</button></td>
+        </tr>
+        <tr>
+          <td>ข้าว</td>
+          <td>สมหมาย</td>
+          <td>40</td>
+          <td><button>ลบ</button></td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td><input type="text" placeholder="ของที่ฝากซื้อ" /></td>
+          <td>
+            <select>
+              <option>สมชาย</option>
+              <option>สมหญิง</option>
+              <option>สมศักดิ์</option>
+              <option>สมจิตร</option>
+              <option>สมหมาย</option>
+            </select>
+          </td>
+          <td><input type="number" placeholder="ราคา (บาท)" /></td>
+          <td><button>เพิ่ม</button></td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
